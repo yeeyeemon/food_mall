@@ -34,8 +34,8 @@ class ShopSeeder extends Seeder
             "delivery" => $faker->boolean,
             "popular" =>  $faker->boolean,
             "rating" => number_format($ratings[rand(0, 10)],1),
-            "image" => 
-            'banner_image'=>
+            "image" =>'https://images.unsplash.com/photo-1602660798203-714912a9e79a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80',
+            'banner_image'=>'https://images.unsplash.com/photo-1602660798042-f057b5c55cbc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80',
             ]);
     }
 }
