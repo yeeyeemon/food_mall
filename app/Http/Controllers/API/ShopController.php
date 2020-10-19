@@ -9,7 +9,7 @@ class ShopController extends Controller
 {
     public function getList(Request $request){
         $shops = Shop::all();
-
+        dd($shops);
         return response()->json($shops);
     }
 }
